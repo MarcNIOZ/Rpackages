@@ -19,7 +19,9 @@ BiocManager::install("edgeR")
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
-BiocManager::install("Glimma")if (!requireNamespace("BiocManager", quietly = TRUE))
+BiocManager::install("Glimma")
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
 BiocManager::install("org.Mm.eg.db")
